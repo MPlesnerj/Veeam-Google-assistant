@@ -82,7 +82,6 @@ Sometimes you might see names of backup jobs and replication jobs or VM names in
 To be able to execute the PowerShell script I needed to modify my Powershell Execution Policy. Run ```Set-ExecutionPolicy Unrestricted``` in PowerShell
 
 Test the scripts to make sure they work ;-)
-![enter image description here](https://user-images.githubusercontent.com/45893067/50071947-ce288500-01d3-11e9-8d1c-ca173620edec.png)
 
 ---
  ### 3. Push2Run Install and configurationen
@@ -91,7 +90,7 @@ Test the scripts to make sure they work ;-)
 Follow this nice detailed [Installation guide](https://www.push2run.com/setup.html) and make sure that the  "**OK Google tell my computer to open the calculator**" test is sucessful.
 
 Now we can add some scripts to the Push2Run application
-![enter image description here](https://user-images.githubusercontent.com/45893067/50077854-d4276180-01e5-11e9-8a84-0c13f43630e7.png)
+![enter image description here](https://user-images.githubusercontent.com/45893067/50212070-6a8c8c00-037a-11e9-9a30-4d320f23822f.png)
 
 Listen for: 
 do a quick backup of the web server 

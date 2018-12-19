@@ -22,14 +22,8 @@ This was also a great way for me to start plying a bit with PowerShell.
 ## Overview
 
 This is the flow of data :
-```mermaid
-graph LR
-A[Google Assistance] --> B((IFTTT.com))
-B --> C((Pushbullet.com))
-C --> D{Push2Run}
-D --> E[Powershell]
-E --> F{Veeam Backup & Replication}
-```
+ ![enter image description here](https://user-images.githubusercontent.com/45893067/50211647-69a72a80-0379-11e9-962c-dc4f269945de.png)
+
 -The Google Assistance push the spoken message to IFTTT.
 
 -IFTTT uses the message contents to trigger a push message to PushBullet.com platform.
@@ -112,7 +106,9 @@ quick backup the web server
 quick backup the webserver
 
 Open: C:\Windows\sysnative\WindowsPowerShell\v1.0\powershell.exe
+
 Start directory: C:\Windows\sysnative\WindowsPowerShell\v1.0\
+
 Parameters: & 'C:\Script\RunQuickBackup.ps1'
 
 I found it very useful to add a lot of different 'Listen for' options, because you dont always remember the exact command need to do a quick backup of the web server. I also found that Google Assistanse sometimes hear web server as one word therefor i added "web server" and "webserver" to the mix.
